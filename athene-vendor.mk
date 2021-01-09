@@ -868,10 +868,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so
 
-# CarrierSettingsExt
+# CarrierSettingsExt, CoreSettingsExt
 PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/com.motorola.frameworks.core.addon.jar:system/framework/com.motorola.frameworks.core.addon.jar \
-    vendor/motorola/athene/proprietary/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml:system/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml
+    vendor/motorola/athene/proprietary/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml:system/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml \
+    vendor/motorola/athene/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
+    vendor/motorola/athene/proprietary/etc/permissions/privapp-permissions-com.motorola.coresettingsext.xml:system/etc/permissions/privapp-permissions-com.motorola.coresettingsext.xml
 
 # Packages
 PRODUCT_PACKAGES += \
