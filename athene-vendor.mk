@@ -898,6 +898,7 @@ PRODUCT_PACKAGES += \
     CarrierServices \
     CarrierSettingsExt \
     ConnMO \
+    CoreSettingsExt \
     DCMO \
     DiagMon \
     DMService \
