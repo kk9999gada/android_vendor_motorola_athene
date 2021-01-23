@@ -870,7 +870,6 @@ PRODUCT_COPY_FILES += \
 
 # CarrierSettingsExt
 PRODUCT_COPY_FILES += \
-    vendor/motorola/athene/proprietary/framework/com.motorola.frameworks.core.addon.jar:system/framework/com.motorola.frameworks.core.addon.jar \
     vendor/motorola/athene/proprietary/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml:system/etc/permissions/privapp-permissions-com.motorola.carriersettingsext.xml
 
 # Packages
@@ -898,7 +897,6 @@ PRODUCT_PACKAGES += \
     CarrierServices \
     CarrierSettingsExt \
     ConnMO \
-    CoreSettingsExt \
     DCMO \
     DiagMon \
     DMService \
